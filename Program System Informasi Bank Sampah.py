@@ -84,4 +84,36 @@ def tabung():
             print("Option not found.")
             print()
 
- 
+ #Main Function
+sampah = ["Plastik", "Organik", "Kertas", "Kaleng"]
+berat = [1.2, 0.3, 2.2, 1.0]
+harga = [3000, 500, 2500, 3500]
+                                                                                     
+user = ["superuser", "user1", "user2"]
+password = ["admin", "abc", "def"]
+                                                                                     
+login = False 
+y = ""
+while y !="0"
+    print("Program Sistem Informasi Bank Sampah")
+    login = input("Login : ")
+    if login == "Exit" or login == "Exit":
+		y = "0"
+        print("Program Shutting Down...")
+    else:
+        passw = input("Pass : ")
+                                                                                     
+        clearscreen()
+        for i in range(len(user)):
+            if login == user[i] and passwd == password[i]:
+                if i == 0:
+                    login = True 
+                    adminMenu()
+                else:
+                    login = True 
+                    adminMenu()             
+            else:
+                login == False
+                                                                                     
+         if login == False:
+             print("User/Password not exist or match.")
